@@ -1,39 +1,35 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="430" viewBox="0 0 1000 430" role="img" aria-labelledby="title desc">
-  <title id="title">Simple belt conveyor with stepper motor and direct coupling</title>
-  <desc id="desc">A compact red polyester belt runs around two end rollers supported by a simple frame. A stepper motor on the left is connected directly to the left roller shaft by a coupling.</desc>
-  <rect width="1000" height="430" fill="#ffffff"/>
-  <text x="500" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" font-weight="bold" fill="#222">Simple Conveyor Layout</text>
-  <!-- belt run -->
-  <rect x="240" y="115" width="560" height="28" rx="5" fill="#d83b35" stroke="#333" stroke-width="3"/>
-  <rect x="240" y="255" width="560" height="28" rx="5" fill="#d83b35" stroke="#333" stroke-width="3"/>
-  <!-- end rollers -->
-  <circle cx="240" cy="199" r="70" fill="#d9d9d9" stroke="#333" stroke-width="5"/>
-  <circle cx="800" cy="199" r="70" fill="#d9d9d9" stroke="#333" stroke-width="5"/>
-  <circle cx="240" cy="199" r="15" fill="#777" stroke="#333" stroke-width="3"/>
-  <circle cx="800" cy="199" r="15" fill="#777" stroke="#333" stroke-width="3"/>
-  <!-- side rails/frame -->
-  <path d="M240 286 L240 315 L800 315 L800 286" fill="none" stroke="#555" stroke-width="12" stroke-linejoin="round"/>
-  <path d="M320 315 L320 350 M720 315 L720 350" stroke="#555" stroke-width="12"/>
-  <path d="M280 350 L760 350" stroke="#555" stroke-width="10"/>
-  <!-- motor and coupling -->
-  <rect x="35" y="165" width="105" height="68" rx="8" fill="#64748b" stroke="#263238" stroke-width="4"/>
-  <rect x="18" y="181" width="17" height="36" fill="#475569" stroke="#263238" stroke-width="3"/>
-  <path d="M140 199 H163" stroke="#555" stroke-width="10"/>
-  <rect x="163" y="184" width="42" height="30" rx="5" fill="#e0a33a" stroke="#333" stroke-width="3"/>
-  <path d="M205 199 H225" stroke="#555" stroke-width="10"/>
+  <title id="title">Simple polyester belt conveyor with stepper motor and direct coupling</title>
+  <desc id="desc">A simple compact conveyor: a red polyester belt loops around two end rollers on a basic support frame. A stepper motor on the left connects to the drive roller shaft through a coupling.</desc>
+  <rect width="1000" height="430" fill="#fff"/>
+  <text x="500" y="42" text-anchor="middle" font-family="Arial,sans-serif" font-size="25" font-weight="bold" fill="#222">Simple Conveyor Layout</text>
+  <!-- rollers and belt loop -->
+  <circle cx="250" cy="195" r="66" fill="#d6d6d6" stroke="#333" stroke-width="4"/>
+  <circle cx="750" cy="195" r="66" fill="#d6d6d6" stroke="#333" stroke-width="4"/>
+  <path d="M250 129 H750 A66 66 0 0 1 750 261 H250 A66 66 0 0 1 250 129 Z" fill="#d83b35" stroke="#333" stroke-width="3"/>
+  <circle cx="250" cy="195" r="13" fill="#777" stroke="#333" stroke-width="3"/>
+  <circle cx="750" cy="195" r="13" fill="#777" stroke="#333" stroke-width="3"/>
+  <!-- simple support frame -->
+  <path d="M250 274 V310 H750 V274 M330 310 V350 M670 310 V350 M290 350 H710" fill="none" stroke="#555" stroke-width="11" stroke-linejoin="round"/>
+  <!-- motor and direct coupling -->
+  <rect x="35" y="161" width="105" height="68" rx="8" fill="#64748b" stroke="#263238" stroke-width="4"/>
+  <rect x="18" y="178" width="17" height="34" fill="#475569" stroke="#263238" stroke-width="3"/>
+  <path d="M140 195 H164" stroke="#555" stroke-width="9"/>
+  <rect x="164" y="181" width="42" height="28" rx="5" fill="#e0a33a" stroke="#333" stroke-width="3"/>
+  <path d="M206 195 H237" stroke="#555" stroke-width="9"/>
   <!-- labels -->
-  <g font-family="Arial, sans-serif" fill="#222" font-size="19">
-    <text x="87" y="145" text-anchor="middle" font-weight="bold">Stepper motor</text>
-    <text x="184" y="250" text-anchor="middle">Coupling</text>
-    <path d="M184 232 L184 216" stroke="#333" stroke-width="2" fill="none"/>
-    <text x="520" y="98" text-anchor="middle" font-weight="bold">Polyester belt</text>
-    <path d="M520 103 L520 115" stroke="#333" stroke-width="2"/>
-    <text x="240" y="390" text-anchor="middle">Drive roller</text>
-    <path d="M240 375 L240 275" stroke="#333" stroke-width="2" fill="none"/>
-    <text x="800" y="390" text-anchor="middle">Opposite roller</text>
-    <path d="M800 375 L800 275" stroke="#333" stroke-width="2" fill="none"/>
-    <text x="520" y="390" text-anchor="middle">Supporting frame</text>
-    <path d="M520 372 L520 350" stroke="#333" stroke-width="2" fill="none"/>
+  <g font-family="Arial,sans-serif" font-size="18" fill="#222">
+    <text x="88" y="141" text-anchor="middle" font-weight="bold">Stepper motor</text>
+    <text x="185" y="246" text-anchor="middle">Direct coupling</text>
+    <path d="M185 229 V211" stroke="#333" stroke-width="2" fill="none"/>
+    <text x="500" y="105" text-anchor="middle" font-weight="bold">Polyester belt</text>
+    <path d="M500 109 V128" stroke="#333" stroke-width="2"/>
+    <text x="250" y="391" text-anchor="middle">Drive roller</text>
+    <path d="M250 373 V265" stroke="#333" stroke-width="2" fill="none"/>
+    <text x="750" y="391" text-anchor="middle">Opposite roller</text>
+    <path d="M750 373 V265" stroke="#333" stroke-width="2" fill="none"/>
+    <text x="500" y="391" text-anchor="middle">Simple support frame</text>
+    <path d="M500 373 V350" stroke="#333" stroke-width="2" fill="none"/>
   </g>
-  <text x="500" y="418" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#555">Schematic only — not to scale; geometry simplified for explanation.</text>
+  <text x="500" y="418" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#555">Simplified explanatory schematic — not to scale or a manufacturing drawing.</text>
 </svg>
